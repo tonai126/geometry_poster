@@ -15,5 +15,7 @@ figures/ folder contains raw tex files corresponding to every figure to include 
 ## TODO:
 Translations
 
+Pull requests are highly appreciated
+
 ## License
 Feel free to use these files for non-commercial purposes
