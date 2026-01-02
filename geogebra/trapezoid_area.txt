@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-7.404779045705471,-5.849223335901017) rectangle (17.92291347226244,10.126974705108417);
+\draw [line width=2pt] (0,0)-- (4,6);
+\draw [line width=2pt] (4,6)-- (10,6);
+\draw [line width=2pt] (10,6)-- (12,0);
+\draw [line width=2pt] (12,0)-- (0,0);
+\draw [line width=2pt] (4,6)-- (4,0);
+\begin{scriptsize}
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw[color=ududff] (-0.517884047721097,0.0063853552785903545) node {$A$};
+\draw [fill=ududff] (12,0) circle (2.5pt);
+\draw[color=ududff] (12.521769933234086,-0.06353236043698701) node {$B$};
+\draw [fill=ududff] (4,6) circle (2.5pt);
+\draw[color=ududff] (3.5723023216401804,6.491253487898394) node {$C$};
+\draw [fill=ududff] (10,6) circle (2.5pt);
+\draw[color=ududff] (10.231964743548925,6.508732916827288) node {$D$};
+\draw [fill=qqqqff] (4,0) circle (2.5pt);
+\draw[color=black] (4.673506344160524,3.082764846763996) node {$h$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

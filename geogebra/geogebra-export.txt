@@ -1,0 +1,41 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{duqsxz}{rgb}{0.8313725490196079,0.00784313725490196,0.4745098039215686}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-4.845184763394855,-4.613516458744139) rectangle (17.03382831767018,9.187324090664724);
+\draw [shift={(0,0)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (0:1.3589449118673935) arc (0:16.992973305677914:1.3589449118673935) -- cycle;
+\draw [shift={(0,0)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (16.992973305677914:1.5099387909637707) arc (16.992973305677914:33.985946611355814:1.5099387909637707) -- cycle;
+\draw [shift={(12,0)},line width=2pt,color=duqsxz,fill=duqsxz,fill opacity=0.1] (0,0) -- (149.66942832087787:1.132454093222828) arc (149.66942832087787:180:1.132454093222828) -- cycle;
+\draw [shift={(12,0)},line width=2pt,color=duqsxz,fill=duqsxz,fill opacity=0.1] (0,0) -- (119.3388566417558:1.283447972319205) arc (119.3388566417558:149.6694283208779:1.283447972319205) -- cycle;
+\draw [shift={(8.702477352232986,5.8667899525864415)},line width=2pt,fill=black,fill opacity=0.1] (0,0) -- (-103.3375983734442:0.9059632745782623) arc (-103.3375983734442:-60.661143358244225:0.9059632745782623) -- cycle;
+\draw [shift={(8.702477352232986,5.8667899525864415)},line width=2pt,fill=black,fill opacity=0.1] (0,0) -- (-146.0140533886442:1.0569571536746394) arc (-146.0140533886442:-103.3375983734442:1.0569571536746394) -- cycle;
+\draw [line width=2pt] (7.882674905745122,2.408918526488078) circle (2.4089185264880775cm);
+\draw [line width=2pt] (0,0)-- (7.882674905745122,2.408918526488078);
+\draw [line width=2pt] (7.882674905745122,2.408918526488078)-- (12,0);
+\draw [line width=2pt] (7.882674905745122,2.408918526488078)-- (8.702477352232986,5.8667899525864415);
+\draw [line width=2pt] (0,0)-- (6.536114641776494,4.406332835728459);
+\draw [line width=2pt] (6.536114641776494,4.406332835728459)-- (8.702477352232986,5.8667899525864415);
+\draw [line width=2pt] (8.702477352232986,5.8667899525864415)-- (9.982618759276473,3.5892253845861704);
+\draw [line width=2pt] (9.982618759276473,3.5892253845861704)-- (12,0);
+\draw [line width=2pt] (12,0)-- (7.882674905745123,0);
+\draw [line width=2pt] (7.882674905745123,0)-- (0,0);
+\begin{scriptsize}
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw [fill=ududff] (12,0) circle (2.5pt);
+\draw [fill=ududff] (8.702477352232986,5.8667899525864415) circle (2.5pt);
+\draw [fill=qqqqff] (7.882674905745122,2.408918526488078) circle (2.5pt);
+\draw[color=qqqqff] (7.793002916971905,1.9245185061289876) node {$O$};
+\draw [fill=qqqqff] (7.882674905745123,0) circle (2.5pt);
+\draw [fill=qqqqff] (9.982618759276473,3.5892253845861704) circle (2.5pt);
+\draw [fill=qqqqff] (6.536114641776494,4.406332835728459) circle (2.5pt);
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

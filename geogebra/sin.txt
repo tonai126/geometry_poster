@@ -1,0 +1,34 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-1,-0.893604784909134) rectangle (16,9.82965263400046);
+\draw [shift={(5.548711354674366,8.366382786177725)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (-119.13591063400457:0.5866114561766737) arc (-119.13591063400457:-54.25843155483686:0.5866114561766737) -- cycle;
+\draw [shift={(8.840482833135399,3.792404346824896)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (125.74156844516317:0.5866114561766737) arc (125.74156844516317:194.6830501714329:0.5866114561766737) -- cycle;
+\draw [shift={(2,2)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (14.68305017143291:0.5866114561766737) arc (14.68305017143291:60.864089365995454:0.5866114561766737) -- cycle;
+\draw [line width=2pt] (5,4.5) circle (3.905124837953328cm);
+\draw [line width=2pt] (5.548711354674366,8.366382786177725)-- (2,2);
+\draw [line width=2pt] (2,2)-- (8.840482833135399,3.792404346824896);
+\draw [line width=2pt] (8.840482833135399,3.792404346824896)-- (5.548711354674366,8.366382786177725);
+\draw [line width=2pt] (5,4.5)-- (5.548711354674366,8.366382786177725);
+\begin{scriptsize}
+\draw [fill=qqqqff] (5,4.5) circle (2.5pt);
+\draw [fill=qqqqff] (2,2) circle (2.5pt);
+\draw [fill=qqqqff] (8.840482833135399,3.792404346824896) circle (2.5pt);
+\draw [fill=qqqqff] (5.548711354674366,8.366382786177725) circle (2.5pt);
+\draw[color=black] (3.4582470669427163,5.606050149528411) node {$b$};
+\draw[color=black] (5.581780538302275,2.7551184725097775) node {$a$};
+\draw[color=black] (7.412008281573498,6.392109500805153) node {$c$};
+\draw[color=black] (5.5465838509316745,6.14573268921095) node {$R$};
+\draw[color=atfczz] (5.710835058661144,7.365884518058432) node {$\alpha$};
+\draw[color=atfczz] (7.9516908212560375,4.033931446974926) node {$\beta$};
+\draw[color=atfczz] (2.977225672877844,2.7316540142627104) node {$\gamma$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

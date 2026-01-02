@@ -1,0 +1,34 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{duqsxz}{rgb}{0.8313725490196079,0.00784313725490196,0.4745098039215686}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-1,-0.893604784909134) rectangle (16,9.82965263400046);
+\draw [shift={(1.2391441753682169,5.551647976431845)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (-77.90850664840158:0.8212560386473431) arc (-77.90850664840158:14.02165447024648:0.8212560386473431) -- cycle;
+\draw [shift={(7.927735410246219,1.9157466518178983)},line width=2pt,color=duqsxz,fill=duqsxz,fill opacity=0.1] (0,0) -- (91.11584740696172:0.8212560386473431) arc (91.11584740696172:179.18568628831366:0.8212560386473431) -- cycle;
+\draw [line width=2pt] (5,4.5) circle (3.905124837953328cm);
+\draw [line width=2pt] (1.2391441753682169,5.551647976431845)-- (7.82488249596053,7.196300963174513);
+\draw [line width=2pt] (7.82488249596053,7.196300963174513)-- (7.927735410246219,1.9157466518178983);
+\draw [line width=2pt] (7.927735410246219,1.9157466518178983)-- (2,2);
+\draw [line width=2pt] (2,2)-- (1.2391441753682169,5.551647976431845);
+\begin{scriptsize}
+\draw [fill=qqqqff] (2,2) circle (2.5pt);
+\draw[color=qqqqff] (1.6514837819185615,1.8165401426270997) node {$A$};
+\draw [fill=xdxdff] (7.927735410246219,1.9157466518178983) circle (2.5pt);
+\draw[color=xdxdff] (8.256728778467908,1.769611226132966) node {$D$};
+\draw [fill=xdxdff] (1.2391441753682169,5.551647976431845) circle (2.5pt);
+\draw[color=xdxdff] (0.7481021394064841,5.711640211640212) node {$B$};
+\draw [fill=xdxdff] (7.82488249596053,7.196300963174513) circle (2.5pt);
+\draw[color=xdxdff] (8.104209799861973,7.506671267540834) node {$C$};
+\draw[color=atfczz] (2.636991028295373,5.0429031515988045) node {$\alpha$};
+\draw[color=duqsxz] (7.236024844720496,2.8137796181274446) node {$\beta$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

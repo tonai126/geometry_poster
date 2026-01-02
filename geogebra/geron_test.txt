@@ -1,0 +1,24 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-1,-1) rectangle (16,11);
+\draw [line width=2pt] (0,0)-- (4,7);
+\draw [line width=2pt] (4,7)-- (12,0);
+\draw [line width=2pt] (12,0)-- (0,0);
+\draw (6.946404341926729,6.896103896103896) node[anchor=north west] {$ p = \frac {a + b + c} {2}$};
+\begin{scriptsize}
+\draw [fill=qqqqff] (0,0) circle (2.5pt);
+\draw [fill=qqqqff] (12,0) circle (2.5pt);
+\draw [fill=qqqqff] (4,7) circle (2.5pt);
+\draw[color=black] (1.5488466757123476,3.554112554112554) node {$a$};
+\draw[color=black] (8.364993215739483,3.7272727272727275) node {$b$};
+\draw[color=black] (5.8622795115332424,-0.23809523809523803) node {$c$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

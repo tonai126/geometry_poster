@@ -1,0 +1,25 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-0.9173921951647568,-4.549983186855012) rectangle (15.079998766291927,10.234258813924978);
+\draw [shift={(8.176577671247726,6)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (180:1.213148960676695) arc (180:231.8381813007939:1.213148960676695) -- cycle;
+\draw [shift={(3.461514150376582,0)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (0:1.213148960676695) arc (0:51.83818130079393:1.213148960676695) -- cycle;
+\draw [shift={(8.176577671247726,6)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (0:1.213148960676695) arc (0:51.83818130079393:1.213148960676695) -- cycle;
+\draw [line width=2pt] (0,6)-- (12,6);
+\draw [line width=2pt] (0,0)-- (12,0);
+\draw [line width=2pt] (2.9146880369848986,-0.6958457008748676)-- (9.281881976051668,7.406518872856749);
+\begin{scriptsize}
+\draw[color=black] (4.970424093986136,6.675688529273339) node {$k$};
+\draw[color=black] (7.3320207374367685,-0.3444001231758027) node {$l$};
+\draw[color=atfczz] (7.040864986874362,5.397838290693887) node {$\alpha$};
+\draw[color=atfczz] (5.488034317208193,0.7716969206467567) node {$\beta$};
+\draw[color=atfczz] (10.567084632574621,6.902143001932989) node {$\gamma$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,38 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-5.995647821317381,-4.8853465028484875) rectangle (18.324663752999744,10.277521695600235);
+\fill[line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (3,3) -- (4,0) -- cycle;
+\fill[line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (6,0) -- (11,5) -- (14,0) -- cycle;
+\draw [line width=2pt] (6,0)-- (14,0);
+\draw [line width=2pt] (14,0)-- (11,5);
+\draw [line width=2pt] (11,5)-- (6,0);
+\draw [line width=2pt] (0,0)-- (4,0);
+\draw [line width=2pt] (4,0)-- (3,3);
+\draw [line width=2pt] (3,3)-- (0,0);
+\draw [line width=2pt,color=atfczz] (0,0)-- (3,3);
+\draw [line width=2pt,color=atfczz] (3,3)-- (4,0);
+\draw [line width=2pt,color=atfczz] (4,0)-- (0,0);
+\draw [line width=2pt,color=atfczz] (6,0)-- (11,5);
+\draw [line width=2pt,color=atfczz] (11,5)-- (14,0);
+\draw [line width=2pt,color=atfczz] (14,0)-- (6,0);
+\begin{scriptsize}
+\draw [fill=qqqqff] (6,0) circle (2.5pt);
+\draw [fill=qqqqff] (14,0) circle (2.5pt);
+\draw [fill=qqqqff] (11,5) circle (2.5pt);
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw [fill=ududff] (4,0) circle (2.5pt);
+\draw [fill=ududff] (3,3) circle (2.5pt);
+\draw[color=atfczz] (2.506507486893755,1.368921889728283) node {$S_1$};
+\draw[color=atfczz] (10.502680869445497,2.0325047430520784) node {$S_2$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

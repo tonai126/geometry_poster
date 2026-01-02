@@ -1,0 +1,33 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-4.9084396250572695,-3.8800407649891855) rectangle (15.915736772395228,9.255430061285198);
+\draw [shift={(4.08185340810201,3.724680814581253)},line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (0,0) -- (-30.421455835846963:1.2215700440189525) arc (-30.421455835846963:42.38037139310335:1.2215700440189525) -- cycle;
+\draw [line width=2pt] (0,0)-- (7.134803867741345,6.5104903153131986);
+\draw [line width=2pt] (2.1766666302526554,4.843406490534393)-- (11.158799306862601,-0.4309018171709668);
+\draw [line width=2pt] (0,0)-- (2.1766666302526554,4.843406490534393);
+\draw [line width=2pt] (2.1766666302526554,4.843406490534393)-- (7.134803867741345,6.5104903153131986);
+\draw [line width=2pt] (7.134803867741345,6.5104903153131986)-- (11.158799306862601,-0.4309018171709668);
+\draw [line width=2pt] (11.158799306862601,-0.4309018171709668)-- (0,0);
+\begin{scriptsize}
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw[color=ududff] (-0.3814447560458568,-0.21533063293232813) node {$A$};
+\draw [fill=ududff] (11.158799306862601,-0.4309018171709668) circle (2.5pt);
+\draw[color=ududff] (11.518084613926998,-0.6177301768444536) node {$B$};
+\draw [fill=ududff] (2.1766666302526554,4.843406490534393) circle (2.5pt);
+\draw[color=ududff] (1.616181551232195,5.217063209881367) node {$C$};
+\draw [fill=ududff] (7.134803867741345,6.5104903153131986) circle (2.5pt);
+\draw[color=ududff] (7.450974937958016,6.956004096073053) node {$D$};
+\draw [fill=qqqqff] (4.08185340810201,3.724680814581253) circle (2.5pt);
+\draw[color=atfczz] (6.330004779917094,3.9092646921669587) node {$\alpha$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

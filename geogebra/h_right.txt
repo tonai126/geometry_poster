@@ -1,0 +1,29 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{fruycc}{rgb}{0.9450980392156862,0.2823529411764706,0.8}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-9.42,-8.498181818181818) rectangle (20.06,9.781818181818188);
+\draw[line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (8.142420844509443,0) -- (8.142420844509443,0.4242640687119288) -- (7.718156775797515,0.42426406871192873) -- (7.718156775797515,0) -- cycle; 
+\draw[line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (7.377903411909716,5.495301795242367) -- (7.631335154915672,5.155048431354568) -- (7.971588518803472,5.408480174360525) -- (7.718156775797515,5.748733538248324) -- cycle; 
+\draw [line width=2pt] (0,0)-- (7.718156775797515,5.748733538248324);
+\draw [line width=2pt] (7.718156775797515,5.748733538248324)-- (12,0);
+\draw [line width=2pt] (7.718156775797515,5.748733538248324)-- (7.718156775797515,0);
+\draw [line width=2pt] (0,0)-- (7.718156775797515,0);
+\draw [line width=2pt] (7.718156775797515,0)-- (12,0);
+\begin{scriptsize}
+\draw [fill=fruycc] (0,0) circle (2.5pt);
+\draw [fill=fruycc] (12,0) circle (2.5pt);
+\draw [fill=fruycc] (7.718156775797515,5.748733538248324) circle (2.5pt);
+\draw [fill=fruycc] (7.718156775797515,0) circle (2.5pt);
+\draw[color=black] (7.22,2.861818181818186) node {$h$};
+\draw[color=black] (3.8,-0.6181818181818155) node {$X$};
+\draw[color=black] (9.96,-0.5381818181818155) node {$Y$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

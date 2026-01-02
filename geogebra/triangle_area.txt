@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
+\definecolor{atfczz}{rgb}{0.6392156862745098,0.9882352941176471,0.6}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-9.020436593671636,-8.06351832370468) rectangle (20.670287855700007,10.347147990220446);
+\draw[line width=2pt,color=atfczz,fill=atfczz,fill opacity=0.1] (5.569728971410907,0) -- (5.569728971410907,0.5697289714109068) -- (5,0.5697289714109067) -- (5,0) -- cycle; 
+\draw [shift={(13,0)},line width=2pt,color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (138.81407483429035:1.2085776573692664) arc (138.81407483429035:180:1.2085776573692664) -- cycle;
+\draw [line width=2pt] (0,0)-- (5,7);
+\draw [line width=2pt] (5,7)-- (13,0);
+\draw [line width=2pt] (5,7)-- (5,0);
+\draw [line width=2pt] (0,0)-- (13,0);
+\begin{scriptsize}
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw [fill=qqqqff] (13,0) circle (2.5pt);
+\draw [fill=qqqqff] (5,7) circle (2.5pt);
+\draw [fill=qqqqff] (5,0) circle (2.5pt);
+\draw[color=black] (9.128371227823514,4.404974508154897) node {$b$};
+\draw[color=black] (4.435061325039529,3.4179694213033307) node {$h$};
+\draw[color=black] (6.570215186391899,-0.38905019940985147) node {$a$};
+\draw[color=qqwuqq] (11.726813191167436,0.8598133798717216) node {$\alpha$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}
